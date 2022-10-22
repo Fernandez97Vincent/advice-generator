@@ -5,7 +5,7 @@ const adviceNumber = document.getElementById('advice-number');
 // fist make button click populate the advice id
 function buttonClick() {
     // make sure button works
-    console.log('clicked');
+    // console.log('clicked');
     fetch('https://api.adviceslip.com/advice')
         .then (response => response.json())
         .then (jsonData => {
